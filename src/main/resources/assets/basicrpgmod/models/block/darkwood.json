@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/darkwod",
+    "up": "basicrpgmod:blocks/darkwod",
+    "north": "basicrpgmod:blocks/darkwood",
+    "east": "basicrpgmod:blocks/darkwood",
+    "south": "basicrpgmod:blocks/darkwood",
+    "west": "basicrpgmod:blocks/darkwood",
+    "particle": "basicrpgmod:blocks/darkwod"
+  }
+}

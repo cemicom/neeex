@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:LifeCrystal2"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      },
+      {
+        "value": "CUSTOM:HeartShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LifeCrystal3"
+    },
+    "name": "lifecrystalcrft3",
+    "namespace": "mod"
+  }
+}

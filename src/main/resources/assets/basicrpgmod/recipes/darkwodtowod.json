@@ -1,0 +1,16 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:darkwood"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:darkplank",
+    "count": 4
+  }
+}

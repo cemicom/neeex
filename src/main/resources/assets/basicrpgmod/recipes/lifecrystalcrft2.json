@@ -1,0 +1,42 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "1": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "2": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "3": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "4": {
+      "item": "basicrpgmod:lifecrystal"
+    },
+    "5": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "6": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "7": {
+      "item": "basicrpgmod:heartshard"
+    },
+    "8": {
+      "item": "basicrpgmod:heartshard"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:lifecrystal2",
+    "count": 1
+  }
+}

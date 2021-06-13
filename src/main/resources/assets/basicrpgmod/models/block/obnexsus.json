@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "basicrpgmod:blocks/obnexus",
+    "particle": "basicrpgmod:blocks/obnexus"
+  }
+}
