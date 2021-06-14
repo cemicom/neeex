@@ -42,8 +42,8 @@ public class BlockDarkBricks extends ElementsBasicRPGmod.ModElement {
 			setUnlocalizedName("darkbricks");
 			setSoundType(SoundType.GROUND);
 			setHarvestLevel("pickaxe", 2);
-			setHardness(5F);
-			setResistance(5F);
+			setHardness(2F);
+			setResistance(8F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);

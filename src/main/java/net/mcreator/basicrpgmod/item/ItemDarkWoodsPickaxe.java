@@ -29,7 +29,7 @@ public class ItemDarkWoodsPickaxe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("DARKWOODSPICKAXE", 2, 183, 5f, -2f, 11)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("DARKWOODSPICKAXE", 2, 50, 2f, -2f, 11)) {
 			{
 				this.attackSpeed = -3f;
 			}

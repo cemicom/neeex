@@ -5,13 +5,13 @@
     "renderType": 0,
     "texture": "darkwoods_axe",
     "customModelName": "Normal",
-    "name": "DarkWoods Axe",
+    "name": "Dark Wood Axe",
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Axe",
-    "harvestLevel": 2,
-    "efficiency": 5.0,
+    "harvestLevel": 0,
+    "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 11,
     "damageVsEntity": 5.0,

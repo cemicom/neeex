@@ -46,7 +46,7 @@ public class ItemDarkAxe extends ElementsBasicRPGmod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("DARKAXE", 3, 175, 8f, 2.5f, 21), effective_items_set);
+			super(EnumHelper.addToolMaterial("DARKAXE", 1, 175, 3f, 2.5f, 21), effective_items_set);
 			this.attackDamage = 2.5f;
 			this.attackSpeed = -3f;
 		}

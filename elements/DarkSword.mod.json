@@ -10,8 +10,8 @@
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 3,
-    "efficiency": 8.0,
+    "harvestLevel": 1,
+    "efficiency": 3.0,
     "attackSpeed": 1.0,
     "enchantability": 21,
     "damageVsEntity": 5.5,

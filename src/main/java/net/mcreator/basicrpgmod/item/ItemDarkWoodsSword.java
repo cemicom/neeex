@@ -34,7 +34,7 @@ public class ItemDarkWoodsSword extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKWOODSSWORD", 2, 50, 5f, 0.5f, 11)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKWOODSSWORD", 0, 50, 2f, 0.5f, 11)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -49,7 +49,7 @@ public class ItemDarkWoodsSword extends ElementsBasicRPGmod.ModElement {
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 2);
+				ret.put("sword", 0);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("darkwoodssword").setRegistryName("darkwoodssword").setCreativeTab(CreativeTabs.COMBAT));

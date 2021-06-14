@@ -29,13 +29,13 @@ public class ItemDarkPickaxe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("DARKPICKAXE", 3, 170, 8f, -1f, 21)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("DARKPICKAXE", 1, 170, 3f, -1f, 21)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 3);
+				ret.put("pickaxe", 1);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("darkpickaxe").setRegistryName("darkpickaxe").setCreativeTab(CreativeTabs.TOOLS));

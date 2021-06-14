@@ -740,6 +740,34 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DarkLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -748,8 +776,8 @@
     "en_us": {
       "item.lifecrystal6.name": "Life Crystal VI",
       "item.lifecrystal3.name": "Life Crystal III",
-      "item.darkwoodspickaxe.name": "DarkWoods Pickaxe",
-      "item.darkwoodssword.name": "DarkWoods Sword",
+      "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
+      "item.darkwoodssword.name": "Dark Wood Sword",
       "tile.watcherseye.name": "Watchers EYE",
       "tile.obnexsus.name": "Obnexsus",
       "item.darkshovel.name": "Dark Stone  Shovel",
@@ -764,11 +792,11 @@
       "tile.darkwood.name": "Dark Wood",
       "tile.darksand.name": "Dark Sand",
       "tile.corruptedthorns.name": "Corrupted Thorns",
-      "item.darkaxe.name": "Dark Stone  Axe",
+      "item.darkaxe.name": "Dark Stone Axe",
       "item.darkhoe.name": "Dark Stone  Hoe",
       "tile.heartcrystal.name": "Heart Crystal",
-      "item.darkwoodsaxe.name": "DarkWoods Axe",
-      "item.darkwoodshoe.name": "DarkWoods Hoe",
+      "item.darkwoodsaxe.name": "Dark Wood Axe",
+      "item.darkwoodshoe.name": "Dark Wood Hoe",
       "tile.darkstone.name": "Dark Stone",
       "item.lifecrystal2.name": "Life Crystal II",
       "item.lifecrystal.name": "Life Crystal I",
@@ -779,7 +807,7 @@
       "item.corupttedgrapes.name": "Coruptted Grapes",
       "tile.darkplank.name": "Dark Plank",
       "tile.darkleaves.name": "Dark Leaves",
-      "item.darkwoodsshovel.name": "DarkWoods Shovel"
+      "item.darkwoodsshovel.name": "Dark Wood Shovel"
     }
   },
   "workspaceSettings": {

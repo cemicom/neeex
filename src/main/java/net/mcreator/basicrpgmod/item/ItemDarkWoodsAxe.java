@@ -46,7 +46,7 @@ public class ItemDarkWoodsAxe extends ElementsBasicRPGmod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("DARKWOODSAXE", 2, 50, 5f, 1f, 11), effective_items_set);
+			super(EnumHelper.addToolMaterial("DARKWOODSAXE", 0, 50, 2f, 1f, 11), effective_items_set);
 			this.attackDamage = 1f;
 			this.attackSpeed = -3f;
 		}

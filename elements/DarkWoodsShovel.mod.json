@@ -5,13 +5,13 @@
     "renderType": 0,
     "texture": "darkwoods_shovel",
     "customModelName": "Normal",
-    "name": "DarkWoods Shovel",
+    "name": "Dark Wood Shovel",
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Spade",
-    "harvestLevel": 2,
-    "efficiency": 5.0,
+    "harvestLevel": 0,
+    "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 11,
     "damageVsEntity": 2.0,

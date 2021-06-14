@@ -29,10 +29,10 @@ public class ItemDarkWoodsHoe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKWOODSHOE", 2, 50, 5f, 0f, 11)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKWOODSHOE", 0, 50, 2f, 0f, 11)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("hoe", 2);
+				ret.put("hoe", 0);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("darkwoodshoe").setRegistryName("darkwoodshoe").setCreativeTab(CreativeTabs.TOOLS));

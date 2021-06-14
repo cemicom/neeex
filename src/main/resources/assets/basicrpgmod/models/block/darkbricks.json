@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "basicrpgmod:blocks/darkbrick",
-    "up": "basicrpgmod:blocks/darkbrick",
-    "north": "basicrpgmod:blocks/darkbrick",
-    "east": "basicrpgmod:blocks/darkbrick",
-    "south": "basicrpgmod:blocks/darkbrick",
-    "west": "basicrpgmod:blocks/darkbrick",
+    "all": "basicrpgmod:blocks/darkbrick",
     "particle": "basicrpgmod:blocks/darkbrick"
   }
 }

@@ -29,13 +29,13 @@ public class ItemDarkWoodsShovel extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKWOODSSHOVEL", 2, 50, 5f, -2f, 11)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKWOODSSHOVEL", 0, 50, 2f, -2f, 11)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("spade", 2);
+				ret.put("spade", 0);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("darkwoodsshovel").setRegistryName("darkwoodsshovel").setCreativeTab(CreativeTabs.TOOLS));

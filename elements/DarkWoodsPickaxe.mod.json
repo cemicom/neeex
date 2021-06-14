@@ -5,17 +5,17 @@
     "renderType": 0,
     "texture": "darkwoods_pickaxe",
     "customModelName": "Normal",
-    "name": "DarkWoods Pickaxe",
+    "name": "Dark Wood Pickaxe",
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,
-    "efficiency": 5.0,
+    "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 11,
     "damageVsEntity": 2.0,
-    "usageCount": 183,
+    "usageCount": 50,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []
