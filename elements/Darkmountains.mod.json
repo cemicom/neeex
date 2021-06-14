@@ -54,7 +54,7 @@
     "baseHeight": 2.0,
     "heightVariation": 0.2,
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 15,
     "biomeType": "COOL",
     "biomeCategory": "EXTREME_HILLS",
     "parent": {
