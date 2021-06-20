@@ -42,7 +42,7 @@
     "material": {
       "value": "FIRE"
     },
-    "tickRate": 10,
+    "tickRate": 100,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -77,6 +77,9 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "DarkGasUpdateTick"
+    },
     "onEntityCollides": {
       "name": "DarkGasEntityWalksOnTheBlock"
     },

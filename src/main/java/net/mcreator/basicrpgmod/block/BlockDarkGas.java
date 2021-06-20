@@ -23,6 +23,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.basicrpgmod.procedure.ProcedureDarkGasUpdateTick;
 import net.mcreator.basicrpgmod.procedure.ProcedureDarkGasEntityWalksOnTheBlock;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
@@ -77,8 +78,39 @@ public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
 		}
 
 		@Override
+		public int tickRate(World world) {
+			return 100;
+		}
+
+		@Override
 		public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
 			return false;
+		}
+
+		@Override
+		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+			super.onBlockAdded(world, pos, state);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+			super.updateTick(world, pos, state, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureDarkGasUpdateTick.executeProcedure($_dependencies);
+			}
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@SideOnly(Side.CLIENT)
