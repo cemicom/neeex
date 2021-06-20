@@ -34,7 +34,7 @@ public class ProcedureDarkLeavesBlockDestroyedByPlayer extends ElementsBasicRPGm
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((Math.random() < 0.2)) {
+		if ((Math.random() < 0.1)) {
 			if (!world.isRemote) {
 				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCorputtedApple.block, (int) (1)));
 				entityToSpawn.setPickupDelay(10);

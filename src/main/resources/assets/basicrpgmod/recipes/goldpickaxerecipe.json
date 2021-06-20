@@ -1,0 +1,30 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:goldwoodplanks"
+    },
+    "1": {
+      "item": "basicrpgmod:goldwoodplanks"
+    },
+    "2": {
+      "item": "basicrpgmod:goldwoodplanks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:goldpickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "myticstoneaxe1",
+    "customModelName": "Normal",
+    "name": "MyticStone Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 6.5,
+    "usageCount": 170,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

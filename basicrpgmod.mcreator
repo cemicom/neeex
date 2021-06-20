@@ -768,6 +768,658 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkSpore",
+      "type": "plant",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkGas",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSporeMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkGasEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkScalePlant",
+      "type": "plant",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticGrass",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticStone",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldWood",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticLeafes",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldWoodPlanks",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldPickaxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldAxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldSword",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldShovel",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldHoe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldAxeRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldSwordRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldShovelRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldHoeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticPickaxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticAxe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticSword",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticShovel",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticHoe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticAxeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticSwordRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticShovelRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticHoeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Cart",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sta",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticSand",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticForest",
+      "type": "biome",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticDesert",
+      "type": "biome",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticMountains",
+      "type": "biome",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkScales",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PoisinousBall",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleShell",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleCotton",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HallogenGel",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSpikes",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MyticApple",
+      "type": "food",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleBerries",
+      "type": "food",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleBerriesBush",
+      "type": "plant",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HallogenicPlant",
+      "type": "plant",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleVines",
+      "type": "plant",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleBush",
+      "type": "plant",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleRose",
+      "type": "plant",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticLeafesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MytivBrick",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mytpsd",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Goldgrass",
+      "type": "plant",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Goldgrass2",
+      "type": "plant",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HallogenicPlantMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkScalePlantPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedThornsPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkSporePlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HallogenicPlantPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleBushPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -775,39 +1427,74 @@
   "language_map": {
     "en_us": {
       "item.lifecrystal6.name": "Life Crystal VI",
-      "item.lifecrystal3.name": "Life Crystal III",
-      "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
-      "item.darkwoodssword.name": "Dark Wood Sword",
-      "tile.watcherseye.name": "Watchers EYE",
+      "tile.myticleafes.name": "Mytic Leafes",
+      "item.purplecotton.name": "Purple Cotton",
+      "tile.hallogenicplant.name": "Hallogenic Plant",
       "tile.obnexsus.name": "Obnexsus",
       "item.darkshovel.name": "Dark Stone  Shovel",
       "item.darkpickaxe.name": "Dark Stone  Pickaxe",
-      "item.corputtedapple.name": "Corputted Apple",
+      "item.myticsword.name": "MyticStone Sword",
+      "item.goldshovel.name": "GoldWood Shovel",
       "item.crystalball.name": "Crystal Ball",
-      "item.darksword.name": "Dark Stone Sword",
+      "tile.myticstone.name": "Mytic Stone",
+      "item.goldhoe.name": "GoldWood Hoe",
       "item.glassball.name": "Glass Ball",
       "tile.darkgrass.name": "Dark Grass",
-      "item.lifecrystal4.name": "Life Crystal IV",
-      "tile.darkbricks.name": "Dark Bricks",
-      "tile.darkwood.name": "Dark Wood",
       "tile.darksand.name": "Dark Sand",
-      "tile.corruptedthorns.name": "Corrupted Thorns",
+      "item.myticpickaxe.name": "MyticStone Pickaxe",
       "item.darkaxe.name": "Dark Stone Axe",
       "item.darkhoe.name": "Dark Stone  Hoe",
-      "tile.heartcrystal.name": "Heart Crystal",
+      "tile.darkgas.name": "Dark Gas",
       "item.darkwoodsaxe.name": "Dark Wood Axe",
-      "item.darkwoodshoe.name": "Dark Wood Hoe",
-      "tile.darkstone.name": "Dark Stone",
-      "item.lifecrystal2.name": "Life Crystal II",
-      "item.lifecrystal.name": "Life Crystal I",
-      "item.lifecrystal5.name": "Life Crystal V",
-      "tile.corupptedbush.name": "Corupptedbush",
+      "tile.purpleberriesbush.name": "Purple Berries Bush",
       "tile.corupptedgrass.name": "Coruppted Grass",
       "item.heartshard.name": "Heart Shard",
       "item.corupttedgrapes.name": "Coruptted Grapes",
+      "tile.purplevines.name": "Purple Vines",
+      "tile.purplerose.name": "Purple Rose",
+      "tile.goldwoodplanks.name": "Gold Wood Planks",
+      "item.goldaxe.name": "GoldWood Axe",
+      "item.darkscales.name": "Dark Scales",
+      "tile.mytivbrick.name": "Mytiv Brick",
+      "item.goldpickaxe.name": "GoldWood Pickaxe",
+      "item.myticapple.name": "Mytic Apple",
+      "tile.goldgrass2.name": "Goldgrass2",
+      "item.lifecrystal3.name": "Life Crystal III",
+      "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
+      "item.goldsword.name": "GoldenWood Sword",
+      "item.darkwoodssword.name": "Dark Wood Sword",
+      "tile.goldwood.name": "Gold Wood",
+      "tile.watcherseye.name": "Watchers EYE",
+      "tile.myticsand.name": "Mytic Sand",
+      "tile.myticgrass.name": "Mytic Grass",
+      "tile.purplebush.name": "Purple Bush",
+      "item.corputtedapple.name": "Corputted Apple",
+      "item.purpleshell.name": "Purple Shell",
+      "item.darksword.name": "Dark Stone Sword",
+      "item.myticshovel.name": "MyticStone Shovel",
+      "item.lifecrystal4.name": "Life Crystal IV",
+      "tile.goldgrass.name": "Goldgrass",
+      "tile.darkbricks.name": "Dark Bricks",
+      "item.myticaxe.name": "MyticStone Axe",
+      "tile.darkwood.name": "Dark Wood",
+      "item.poisinousball.name": "Poisinous Ball",
+      "tile.corruptedthorns.name": "Corrupted Thorns",
+      "tile.heartcrystal.name": "Heart Crystal",
+      "item.darkwoodshoe.name": "Dark Wood Hoe",
+      "tile.darkstone.name": "Dark Stone",
+      "item.lifecrystal2.name": "Life Crystal II",
+      "tile.darkscaleplant.name": "Dark Scale Plant",
+      "item.lifecrystal.name": "Life Crystal I",
+      "item.hallogengel.name": "Hallogen Gel",
+      "item.lifecrystal5.name": "Life Crystal V",
+      "tile.corupptedbush.name": "Corupptedbush",
+      "item.purpleberries.name": "Purple Berries",
       "tile.darkplank.name": "Dark Plank",
       "tile.darkleaves.name": "Dark Leaves",
-      "item.darkwoodsshovel.name": "Dark Wood Shovel"
+      "item.darkspikes.name": "Dark Spikes",
+      "item.darkwoodsshovel.name": "Dark Wood Shovel",
+      "tile.darkspore.name": "Dark Spore",
+      "item.mytichoe.name": "MyticStone Hoe"
     }
   },
   "workspaceSettings": {

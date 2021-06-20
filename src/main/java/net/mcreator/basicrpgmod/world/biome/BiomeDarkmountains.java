@@ -43,11 +43,11 @@ public class BiomeDarkmountains extends ElementsBasicRPGmod.ModElement {
 	public void init(FMLInitializationEvent event) {
 		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.MOUNTAIN, BiomeDictionary.Type.HILLS, BiomeDictionary.Type.DRY);
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(biome, 15));
+		BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Darkmountains").setRainfall(0.5F).setBaseHeight(2F).setWaterColor(-13421773).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("Darkmountains").setRainfall(0.5F).setBaseHeight(0F).setWaterColor(-13421773).setHeightVariation(2F)
 					.setTemperature(0.5F));
 			setRegistryName("darkmountains");
 			topBlock = BlockDarkGrass.block.getDefaultState();

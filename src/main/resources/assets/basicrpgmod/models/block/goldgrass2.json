@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "basicrpgmod:blocks/myticforesttent1",
+    "particle": "basicrpgmod:blocks/myticforesttent1"
+  }
+}

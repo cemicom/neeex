@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "basicrpgmod:blocks/purplesting",
+    "particle": "basicrpgmod:blocks/purplesting"
+  }
+}

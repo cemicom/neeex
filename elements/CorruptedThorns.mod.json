@@ -20,7 +20,7 @@
       "value": "PLANT"
     },
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "isReplaceable": false,
@@ -30,7 +30,7 @@
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 10,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -45,6 +45,9 @@
         "value": "CUSTOM:Darkmountains"
       }
     ],
+    "onDestroyedByPlayer": {
+      "name": "CorruptedThornsPlantDestroyedByPlayer"
+    },
     "onEntityCollides": {
       "name": "CORUPTEDThornsMobplayerCollidesWithPlant"
     }
