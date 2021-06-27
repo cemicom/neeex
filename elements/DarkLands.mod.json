@@ -61,7 +61,10 @@
       "value": "CUSTOM:DarkLands"
     },
     "biomeDictionaryTypes": [
-      "FOREST"
+      "FOREST",
+      "PLAINS",
+      "CONIFEROUS",
+      "JUNGLE"
     ],
     "spawnList": []
   }

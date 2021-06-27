@@ -46,8 +46,8 @@ public class ItemMyticAxe extends ElementsBasicRPGmod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("MYTICAXE", 1, 170, 3f, 2.5f, 14), effective_items_set);
-			this.attackDamage = 2.5f;
+			super(EnumHelper.addToolMaterial("MYTICAXE", 1, 150, 4f, 1f, 14), effective_items_set);
+			this.attackDamage = 1f;
 			this.attackSpeed = -3f;
 		}
 

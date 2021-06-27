@@ -67,6 +67,8 @@ public class BlockGoldgrass extends ElementsBasicRPGmod.ModElement {
 			biomeCriteria = true;
 		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("basicrpgmod:myticmountains")))
 			biomeCriteria = true;
+		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("basicrpgmod:myticforest2")))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		for (int i = 0; i < 4; i++) {

@@ -43,6 +43,9 @@
       },
       {
         "value": "CUSTOM:Darkmountains"
+      },
+      {
+        "value": "CUSTOM:DarkLands2"
       }
     ],
     "onDestroyedByPlayer": {

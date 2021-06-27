@@ -10,12 +10,12 @@
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 0,
+    "efficiency": 3.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 4.5,
-    "usageCount": 50,
+    "usageCount": 90,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

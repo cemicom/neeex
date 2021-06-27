@@ -1448,6 +1448,282 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ash",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenRock",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BurnedLog",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Volcanic",
+      "type": "biome",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VolcanicRock",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HotLeafFoodEaten",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotLeaf",
+      "type": "food",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VolcanicRockk",
+      "type": "fuel",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BurnedFleshFoodEaten",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BurnedFlesh",
+      "type": "food",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniVolcan",
+      "type": "plant",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HotRose",
+      "type": "plant",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bones",
+      "type": "plant",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BonesPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObeliskPiece",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Obelisk1",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Obelisk2",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenPickaxe",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenAxe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenSword",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenShovel",
+      "type": "tool",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenHoe",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenAxeRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenSwordRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenShovelRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenHoeRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkLands2",
+      "type": "biome",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MyticForest2",
+      "type": "biome",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Volcanic2",
+      "type": "biome",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1458,23 +1734,32 @@
       "tile.myticleafes.name": "Mytic Leafes",
       "item.purplecotton.name": "Purple Cotton",
       "tile.hallogenicplant.name": "Hallogenic Plant",
+      "item.volcanicrock.name": "Volcanic Rock",
+      "tile.obelisk2.name": "Obelisk",
       "tile.obnexsus.name": "Obnexsus",
       "item.darkshovel.name": "Dark Stone  Shovel",
       "item.darkpickaxe.name": "Dark Stone  Pickaxe",
       "item.myticsword.name": "MyticStone Sword",
       "item.goldshovel.name": "GoldWood Shovel",
       "item.crystalball.name": "Crystal Ball",
+      "tile.bones.name": "Bones",
       "tile.myticstone.name": "Mytic Stone",
+      "item.obeliskpiece.name": "Obelisk Piece",
       "item.goldhoe.name": "GoldWood Hoe",
       "item.glassball.name": "Glass Ball",
       "tile.darkgrass.name": "Dark Grass",
       "tile.darksand.name": "Dark Sand",
       "item.myticpickaxe.name": "MyticStone Pickaxe",
+      "tile.obelisk1.name": "Obelisk",
       "item.darkaxe.name": "Dark Stone Axe",
       "item.darkhoe.name": "Dark Stone  Hoe",
       "tile.darkgas.name": "Dark Gas",
       "item.darkwoodsaxe.name": "Dark Wood Axe",
+      "item.moltensword.name": "Molten Sword",
+      "tile.minivolcan.name": "Mini Volcan",
+      "item.moltenpickaxe.name": "Molten Pickaxe",
       "tile.purpleberriesbush.name": "Purple Berries Bush",
+      "tile.ash.name": "Ash",
       "tile.corupptedgrass.name": "Coruppted Grass",
       "item.heartshard.name": "Heart Shard",
       "item.corupttedgrapes.name": "Coruptted Grapes",
@@ -1486,6 +1771,7 @@
       "tile.mytivbrick.name": "Mytiv Brick",
       "item.goldpickaxe.name": "GoldWood Pickaxe",
       "item.myticapple.name": "Mytic Apple",
+      "tile.burnedlog.name": "Burned Log",
       "tile.goldgrass2.name": "Goldgrass2",
       "item.lifecrystal3.name": "Life Crystal III",
       "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
@@ -1496,9 +1782,13 @@
       "tile.myticsand.name": "Mytic Sand",
       "tile.myticgrass.name": "Mytic Grass",
       "tile.purplebush.name": "Purple Bush",
+      "item.hotleaf.name": "Hot Leaf",
+      "item.burnedflesh.name": "Burned Flesh",
       "item.corputtedapple.name": "Corputted Apple",
       "item.purpleshell.name": "Purple Shell",
+      "item.moltenhoe.name": "Molten Hoe",
       "item.darksword.name": "Dark Stone Sword",
+      "tile.moltenrock.name": "Molten Rock",
       "item.myticshovel.name": "MyticStone Shovel",
       "item.lifecrystal4.name": "Life Crystal IV",
       "tile.goldgrass.name": "Goldgrass",
@@ -1519,10 +1809,13 @@
       "item.purpleberries.name": "Purple Berries",
       "tile.darkplank.name": "Dark Plank",
       "tile.darkleaves.name": "Dark Leaves",
+      "item.moltenaxe.name": "Molten Axe",
       "item.darkspikes.name": "Dark Spikes",
+      "item.moltenshovel.name": "Molten Shovel",
       "item.darkwoodsshovel.name": "Dark Wood Shovel",
       "tile.darkspore.name": "Dark Spore",
-      "item.mytichoe.name": "MyticStone Hoe"
+      "item.mytichoe.name": "MyticStone Hoe",
+      "tile.hotrose.name": "Hot Rose"
     }
   },
   "workspaceSettings": {

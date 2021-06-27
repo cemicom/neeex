@@ -29,7 +29,7 @@ public class ItemMyticShovel extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("MYTICSHOVEL", 1, 170, 3f, -1f, 14)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("MYTICSHOVEL", 1, 150, 4f, -1f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

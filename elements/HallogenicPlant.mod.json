@@ -40,6 +40,9 @@
       },
       {
         "value": "CUSTOM:MyticMountains"
+      },
+      {
+        "value": "CUSTOM:MyticForest2"
       }
     ],
     "onDestroyedByPlayer": {

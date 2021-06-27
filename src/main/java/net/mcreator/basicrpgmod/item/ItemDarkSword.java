@@ -34,7 +34,7 @@ public class ItemDarkSword extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKSWORD", 1, 175, 3f, 1.5f, 21)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKSWORD", 1, 150, 4f, 1.3f, 21)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

@@ -1,0 +1,30 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:moltenrock"
+    },
+    "1": {
+      "item": "basicrpgmod:moltenrock"
+    },
+    "2": {
+      "item": "basicrpgmod:moltenrock"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:moltenpickaxe",
+    "count": 1
+  }
+}

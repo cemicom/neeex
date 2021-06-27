@@ -68,6 +68,8 @@ public class BlockObnexsus extends ElementsBasicRPGmod.ModElement {
 			biomeCriteria = true;
 		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("basicrpgmod:darkdesert")))
 			biomeCriteria = true;
+		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("basicrpgmod:darklands2")))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		for (int i = 0; i < 1; i++) {

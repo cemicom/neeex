@@ -41,7 +41,8 @@ public class BiomeMyticForest extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.PLAINS);
+		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.PLAINS, BiomeDictionary.Type.CONIFEROUS,
+				BiomeDictionary.Type.JUNGLE);
 		BiomeManager.addSpawnBiome(biome);
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
@@ -52,7 +53,7 @@ public class BiomeMyticForest extends ElementsBasicRPGmod.ModElement {
 			setRegistryName("myticforest");
 			topBlock = BlockMyticGrass.block.getDefaultState();
 			fillerBlock = BlockMyticStone.block.getDefaultState();
-			decorator.generateFalls = false;
+			decorator.generateFalls = true;
 			decorator.treesPerChunk = 3;
 			decorator.flowersPerChunk = 0;
 			decorator.grassPerChunk = 6;

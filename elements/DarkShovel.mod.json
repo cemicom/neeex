@@ -11,11 +11,11 @@
     },
     "toolType": "Spade",
     "harvestLevel": 1,
-    "efficiency": 3.0,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 21,
     "damageVsEntity": 3.0,
-    "usageCount": 170,
+    "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

@@ -29,7 +29,7 @@ public class ItemMyticHoe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("MYTICHOE", 1, 170, 3f, 0f, 14)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("MYTICHOE", 1, 150, 4f, 0f, 14)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("hoe", 1);

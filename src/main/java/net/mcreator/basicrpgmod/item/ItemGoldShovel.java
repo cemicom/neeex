@@ -29,7 +29,7 @@ public class ItemGoldShovel extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("GOLDSHOVEL", 0, 50, 2f, -2f, 11)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("GOLDSHOVEL", 0, 90, 3f, -2f, 11)) {
 			{
 				this.attackSpeed = -3f;
 			}

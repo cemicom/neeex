@@ -29,7 +29,7 @@ public class ItemGoldPickaxe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("GOLDPICKAXE", 0, 50, 2f, -2f, 11)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("GOLDPICKAXE", 0, 90, 3f, -2f, 11)) {
 			{
 				this.attackSpeed = -3f;
 			}

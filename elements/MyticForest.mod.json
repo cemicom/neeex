@@ -9,7 +9,7 @@
     "undergroundBlock": {
       "value": "CUSTOM:MyticStone"
     },
-    "generateLakes": false,
+    "generateLakes": true,
     "treeType": 1,
     "vanillaTreeType": "Default",
     "minHeight": 4,
@@ -62,7 +62,9 @@
     },
     "biomeDictionaryTypes": [
       "FOREST",
-      "PLAINS"
+      "PLAINS",
+      "CONIFEROUS",
+      "JUNGLE"
     ],
     "spawnList": []
   }

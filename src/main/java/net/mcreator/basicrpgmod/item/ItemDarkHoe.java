@@ -29,7 +29,7 @@ public class ItemDarkHoe extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKHOE", 1, 441, 3f, 0f, 21)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKHOE", 1, 150, 4f, 0f, 21)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("hoe", 1);

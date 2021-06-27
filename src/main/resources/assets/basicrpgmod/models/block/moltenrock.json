@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "basicrpgmod:blocks/moltenrock",
+    "particle": "basicrpgmod:blocks/moltenrock"
+  }
+}

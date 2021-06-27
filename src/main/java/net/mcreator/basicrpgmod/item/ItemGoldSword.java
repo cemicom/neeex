@@ -34,7 +34,7 @@ public class ItemGoldSword extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("GOLDSWORD", 2, 50, 6f, 0.5f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("GOLDSWORD", 0, 90, 3f, 0.5f, 14)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -49,7 +49,7 @@ public class ItemGoldSword extends ElementsBasicRPGmod.ModElement {
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 2);
+				ret.put("sword", 0);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("goldsword").setRegistryName("goldsword").setCreativeTab(CreativeTabs.COMBAT));
