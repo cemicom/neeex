@@ -768,6 +768,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkSpore",
+      "type": "plant",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -807,7 +815,8 @@
       "item.corupttedgrapes.name": "Coruptted Grapes",
       "tile.darkplank.name": "Dark Plank",
       "tile.darkleaves.name": "Dark Leaves",
-      "item.darkwoodsshovel.name": "Dark Wood Shovel"
+      "item.darkwoodsshovel.name": "Dark Wood Shovel",
+      "tile.darkspore.name": "Dark Spore"
     }
   },
   "workspaceSettings": {
