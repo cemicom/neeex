@@ -853,7 +853,7 @@
       "name": "BurnedLog",
       "type": "block",
       "sortid": 127,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -965,7 +965,7 @@
       "name": "DarkScalePlant",
       "type": "plant",
       "sortid": 69,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -1285,7 +1285,7 @@
       "name": "DarkGas",
       "type": "block",
       "sortid": 66,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -1429,7 +1429,7 @@
       "name": "Ash",
       "type": "block",
       "sortid": 125,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -1437,7 +1437,7 @@
       "name": "Bones",
       "type": "plant",
       "sortid": 134,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
