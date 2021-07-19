@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldwoodsword",
+    "customModelName": "Normal",
+    "name": "GoldenWood Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 3.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.5,
+    "usageCount": 90,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

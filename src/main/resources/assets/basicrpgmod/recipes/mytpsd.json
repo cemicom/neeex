@@ -1,0 +1,26 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:unknown_element"
+    },
+    "1": {
+      "item": "basicrpgmod:unknown_element"
+    },
+    "2": {
+      "item": "basicrpgmod:unknown_element"
+    },
+    "3": {
+      "item": "basicrpgmod:unknown_element"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:unknown_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/grassbot",
+    "up": "basicrpgmod:blocks/myticgrasstopp",
+    "north": "basicrpgmod:blocks/myticgrass",
+    "east": "basicrpgmod:blocks/myticgrass",
+    "south": "basicrpgmod:blocks/myticgrass",
+    "west": "basicrpgmod:blocks/myticgrass",
+    "particle": "basicrpgmod:blocks/grassbot"
+  }
+}

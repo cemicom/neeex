@@ -20,7 +20,7 @@
       "value": "PLANT"
     },
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "isReplaceable": false,
@@ -30,7 +30,7 @@
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -43,7 +43,16 @@
       },
       {
         "value": "CUSTOM:Darkmountains"
+      },
+      {
+        "value": "CUSTOM:DarkLands2"
       }
-    ]
+    ],
+    "onDestroyedByPlayer": {
+      "name": "DarkSporePlantDestroyedByPlayer"
+    },
+    "onEntityCollides": {
+      "name": "DarkSporeMobplayerCollidesWithPlant"
+    }
   }
 }

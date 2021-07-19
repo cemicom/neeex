@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/colaarr",
+    "up": "basicrpgmod:blocks/colaarr",
+    "north": "basicrpgmod:blocks/coaltree",
+    "east": "basicrpgmod:blocks/coaltree",
+    "south": "basicrpgmod:blocks/coaltree",
+    "west": "basicrpgmod:blocks/coaltree",
+    "particle": "basicrpgmod:blocks/colaarr"
+  }
+}

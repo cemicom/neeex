@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/woodgold",
+    "up": "basicrpgmod:blocks/woodgold",
+    "north": "basicrpgmod:blocks/goldwood",
+    "east": "basicrpgmod:blocks/goldwood",
+    "south": "basicrpgmod:blocks/goldwood",
+    "west": "basicrpgmod:blocks/goldwood",
+    "particle": "basicrpgmod:blocks/woodgold"
+  }
+}

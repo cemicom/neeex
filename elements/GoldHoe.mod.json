@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldwoodhoe",
+    "customModelName": "Normal",
+    "name": "GoldWood Hoe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 0,
+    "efficiency": 3.0,
+    "attackSpeed": 1.0,
+    "enchantability": 11,
+    "damageVsEntity": 2.0,
+    "usageCount": 90,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

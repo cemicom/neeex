@@ -1,0 +1,69 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Mytic Mountains",
+    "groundBlock": {
+      "value": "CUSTOM:MyticGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:MyticStone"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:GoldWood"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MyticLeafes"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -3407668,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3407668,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 4,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.0,
+    "heightVariation": 2.0,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "COOL",
+    "biomeCategory": "EXTREME_HILLS",
+    "parent": {
+      "value": "CUSTOM:MyticForest"
+    },
+    "biomeDictionaryTypes": [
+      "MOUNTAIN",
+      "HILLS"
+    ],
+    "spawnList": []
+  }
+}

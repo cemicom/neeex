@@ -51,10 +51,10 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 2.0,
-    "heightVariation": 0.2,
+    "baseHeight": 0.0,
+    "heightVariation": 2.0,
     "spawnBiome": true,
-    "biomeWeight": 15,
+    "biomeWeight": 10,
     "biomeType": "COOL",
     "biomeCategory": "EXTREME_HILLS",
     "parent": {

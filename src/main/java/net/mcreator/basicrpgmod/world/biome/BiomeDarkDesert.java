@@ -41,7 +41,7 @@ public class BiomeDarkDesert extends ElementsBasicRPGmod.ModElement {
 	public void init(FMLInitializationEvent event) {
 		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.HOT);
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(biome, 15));
+		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(biome, 1));
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {

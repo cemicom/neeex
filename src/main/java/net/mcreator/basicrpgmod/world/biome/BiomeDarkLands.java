@@ -41,9 +41,10 @@ public class BiomeDarkLands extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.FOREST);
+		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.PLAINS, BiomeDictionary.Type.CONIFEROUS,
+				BiomeDictionary.Type.JUNGLE);
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 15));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {

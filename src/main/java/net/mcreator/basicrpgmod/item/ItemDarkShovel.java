@@ -29,7 +29,7 @@ public class ItemDarkShovel extends ElementsBasicRPGmod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKSHOVEL", 1, 170, 3f, -1f, 21)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKSHOVEL", 1, 150, 4f, -1f, 21)) {
 			{
 				this.attackSpeed = -3f;
 			}
