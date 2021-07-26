@@ -1,8 +1,14 @@
 package net.mcreator.basicrpgmod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.init.Blocks;
+
+import net.mcreator.basicrpgmod.block.BlockDarkGas;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ProcedureDarkSporeMobplayerCollidesWithPlant extends ElementsBasicRPGmod.ModElement {
-
 	public ProcedureDarkSporeMobplayerCollidesWithPlant(ElementsBasicRPGmod instance) {
 		super(instance, 67);
 	}
@@ -24,12 +30,10 @@ public class ProcedureDarkSporeMobplayerCollidesWithPlant extends ElementsBasicR
 			System.err.println("Failed to load dependency world for procedure DarkSporeMobplayerCollidesWithPlant!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), BlockDarkGas.block.getDefaultState(), 3);
 		if (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) (x + 1), (int) y, (int) z), BlockDarkGas.block.getDefaultState(), 3);
@@ -48,7 +52,5 @@ public class ProcedureDarkSporeMobplayerCollidesWithPlant extends ElementsBasicR
 				}
 			}
 		}
-
 	}
-
 }

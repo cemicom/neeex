@@ -1,8 +1,14 @@
 package net.mcreator.basicrpgmod.procedure;
 
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.init.MobEffects;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ProcedureBurnedFleshFoodEaten extends ElementsBasicRPGmod.ModElement {
-
 	public ProcedureBurnedFleshFoodEaten(ElementsBasicRPGmod instance) {
 		super(instance, 132);
 	}
@@ -12,12 +18,8 @@ public class ProcedureBurnedFleshFoodEaten extends ElementsBasicRPGmod.ModElemen
 			System.err.println("Failed to load dependency entity for procedure BurnedFleshFoodEaten!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.NAUSEA, (int) 120, (int) 1, (false), (false)));
-
 	}
-
 }

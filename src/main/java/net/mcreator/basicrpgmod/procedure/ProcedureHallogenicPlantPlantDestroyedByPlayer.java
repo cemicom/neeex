@@ -1,8 +1,14 @@
 package net.mcreator.basicrpgmod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.EntityItem;
+
+import net.mcreator.basicrpgmod.item.ItemHallogenGel;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ProcedureHallogenicPlantPlantDestroyedByPlayer extends ElementsBasicRPGmod.ModElement {
-
 	public ProcedureHallogenicPlantPlantDestroyedByPlayer(ElementsBasicRPGmod instance) {
 		super(instance, 122);
 	}
@@ -24,15 +30,16 @@ public class ProcedureHallogenicPlantPlantDestroyedByPlayer extends ElementsBasi
 			System.err.println("Failed to load dependency world for procedure HallogenicPlantPlantDestroyedByPlayer!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((Math.random() < 0.1)) {
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemHallogenGel.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
 		}
-
 	}
-
 }

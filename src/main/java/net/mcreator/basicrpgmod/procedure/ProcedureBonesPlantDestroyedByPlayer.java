@@ -1,8 +1,14 @@
 package net.mcreator.basicrpgmod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.EntityItem;
+
+import net.mcreator.basicrpgmod.item.ItemBurnedFlesh;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ProcedureBonesPlantDestroyedByPlayer extends ElementsBasicRPGmod.ModElement {
-
 	public ProcedureBonesPlantDestroyedByPlayer(ElementsBasicRPGmod instance) {
 		super(instance, 135);
 	}
@@ -24,12 +30,10 @@ public class ProcedureBonesPlantDestroyedByPlayer extends ElementsBasicRPGmod.Mo
 			System.err.println("Failed to load dependency world for procedure BonesPlantDestroyedByPlayer!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((Math.random() < 0.2)) {
 			if (!world.isRemote) {
 				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemBurnedFlesh.block, (int) (1)));
@@ -37,7 +41,5 @@ public class ProcedureBonesPlantDestroyedByPlayer extends ElementsBasicRPGmod.Mo
 				world.spawnEntity(entityToSpawn);
 			}
 		}
-
 	}
-
 }

@@ -1,12 +1,38 @@
 
 package net.mcreator.basicrpgmod.block;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.EnumParticleTypes;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.Minecraft;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.Block;
+
+import net.mcreator.basicrpgmod.procedure.ProcedureDarkGasUpdateTick;
+import net.mcreator.basicrpgmod.procedure.ProcedureDarkGasEntityWalksOnTheBlock;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
+import java.util.Random;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
-
 	@GameRegistry.ObjectHolder("basicrpgmod:darkgas")
 	public static final Block block = null;
-
 	public BlockDarkGas(ElementsBasicRPGmod instance) {
 		super(instance, 66);
 	}
@@ -21,24 +47,18 @@ public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("basicrpgmod:darkgas", "inventory"));
-
 	}
-
 	public static class BlockCustom extends Block {
-
 		public BlockCustom() {
 			super(Material.FIRE);
-
 			setUnlocalizedName("darkgas");
 			setSoundType(SoundType.CLOTH);
-
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(1);
 			setCreativeTab(null);
 			setBlockUnbreakable();
-
 		}
 
 		@Override
@@ -88,7 +108,6 @@ public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				ProcedureDarkGasUpdateTick.executeProcedure($_dependencies);
 			}
 			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
@@ -127,7 +146,6 @@ public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-
 				ProcedureDarkGasEntityWalksOnTheBlock.executeProcedure($_dependencies);
 			}
 		}
@@ -141,11 +159,8 @@ public class BlockDarkGas extends ElementsBasicRPGmod.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-
 				ProcedureDarkGasEntityWalksOnTheBlock.executeProcedure($_dependencies);
 			}
 		}
-
 	}
-
 }

@@ -1,9 +1,13 @@
 
 package net.mcreator.basicrpgmod.fuel;
 
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.basicrpgmod.item.ItemVolcanicRock;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class FuelVolcanicRockk extends ElementsBasicRPGmod.ModElement {
-
 	public FuelVolcanicRockk(ElementsBasicRPGmod instance) {
 		super(instance, 131);
 	}
@@ -14,5 +18,4 @@ public class FuelVolcanicRockk extends ElementsBasicRPGmod.ModElement {
 			return 100000;
 		return 0;
 	}
-
 }

@@ -1,12 +1,28 @@
 
 package net.mcreator.basicrpgmod.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemFood;
+import net.minecraft.item.Item;
+import net.minecraft.item.EnumAction;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+
+import net.mcreator.basicrpgmod.procedure.ProcedureBurnedFleshFoodEaten;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ItemBurnedFlesh extends ElementsBasicRPGmod.ModElement {
-
 	@GameRegistry.ObjectHolder("basicrpgmod:burnedflesh")
 	public static final Item block = null;
-
 	public ItemBurnedFlesh(ElementsBasicRPGmod instance) {
 		super(instance, 132);
 	}
@@ -21,14 +37,11 @@ public class ItemBurnedFlesh extends ElementsBasicRPGmod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("basicrpgmod:burnedflesh", "inventory"));
 	}
-
 	public static class ItemFoodCustom extends ItemFood {
-
 		public ItemFoodCustom() {
 			super(6, 7f, false);
 			setUnlocalizedName("burnedflesh");
 			setRegistryName("burnedflesh");
-
 			setCreativeTab(CreativeTabs.FOOD);
 			setMaxStackSize(64);
 		}
@@ -46,11 +59,9 @@ public class ItemBurnedFlesh extends ElementsBasicRPGmod.ModElement {
 			int z = (int) entity.posZ;
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-
+				$_dependencies.put("entity", entity);
 				ProcedureBurnedFleshFoodEaten.executeProcedure($_dependencies);
 			}
 		}
-
 	}
-
 }

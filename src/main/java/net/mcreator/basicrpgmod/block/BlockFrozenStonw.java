@@ -18,30 +18,31 @@ import net.minecraft.block.Block;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 @ElementsBasicRPGmod.ModElement.Tag
-public class BlockMytivBrick extends ElementsBasicRPGmod.ModElement {
-	@GameRegistry.ObjectHolder("basicrpgmod:mytivbrick")
+public class BlockFrozenStonw extends ElementsBasicRPGmod.ModElement {
+	@GameRegistry.ObjectHolder("basicrpgmod:frozenstonw")
 	public static final Block block = null;
-	public BlockMytivBrick(ElementsBasicRPGmod instance) {
-		super(instance, 115);
+	public BlockFrozenStonw(ElementsBasicRPGmod instance) {
+		super(instance, 152);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("mytivbrick"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("frozenstonw"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("basicrpgmod:mytivbrick", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("basicrpgmod:frozenstonw", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("mytivbrick");
-			setSoundType(SoundType.STONE);
-			setHarvestLevel("pickaxe", 1);
+			setUnlocalizedName("frozenstonw");
+			setSoundType(SoundType.GROUND);
+			setHarvestLevel("pickaxe", 0);
 			setHardness(1.5F);
 			setResistance(6F);
 			setLightLevel(0F);

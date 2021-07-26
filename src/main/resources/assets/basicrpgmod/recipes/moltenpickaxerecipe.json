@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "basicrpgmod:unknown_element"
+      "item": "basicrpgmod:moltenrock"
     },
     "1": {
-      "item": "basicrpgmod:unknown_element"
+      "item": "basicrpgmod:moltenrock"
     },
     "2": {
-      "item": "basicrpgmod:unknown_element"
+      "item": "basicrpgmod:moltenrock"
     },
     "4": {
       "item": "minecraft:stick"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "basicrpgmod:unknown_element",
+    "item": "basicrpgmod:moltenpickaxe",
     "count": 1
   }
 }

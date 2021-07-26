@@ -853,7 +853,7 @@
       "name": "BurnedLog",
       "type": "block",
       "sortid": 127,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -965,7 +965,7 @@
       "name": "DarkScalePlant",
       "type": "plant",
       "sortid": 69,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -1285,7 +1285,7 @@
       "name": "DarkGas",
       "type": "block",
       "sortid": 66,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -1429,7 +1429,7 @@
       "name": "Ash",
       "type": "block",
       "sortid": 125,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -1437,7 +1437,7 @@
       "name": "Bones",
       "type": "plant",
       "sortid": 134,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -1724,6 +1724,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "FrozenGrass",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenStonw",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1737,6 +1753,7 @@
       "item.volcanicrock.name": "Volcanic Rock",
       "tile.obelisk2.name": "Obelisk",
       "tile.obnexsus.name": "Obnexsus",
+      "tile.frozengrass.name": "Frozen Grass",
       "item.darkshovel.name": "Dark Stone  Shovel",
       "item.darkpickaxe.name": "Dark Stone  Pickaxe",
       "item.myticsword.name": "MyticStone Sword",
@@ -1783,6 +1800,7 @@
       "tile.myticgrass.name": "Mytic Grass",
       "tile.purplebush.name": "Purple Bush",
       "item.hotleaf.name": "Hot Leaf",
+      "tile.frozenstonw.name": "Frozen Stone",
       "item.burnedflesh.name": "Burned Flesh",
       "item.corputtedapple.name": "Corputted Apple",
       "item.purpleshell.name": "Purple Shell",

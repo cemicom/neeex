@@ -1,8 +1,14 @@
 package net.mcreator.basicrpgmod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.EntityItem;
+
+import net.mcreator.basicrpgmod.item.ItemPurpleCotton;
+import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
+
 @ElementsBasicRPGmod.ModElement.Tag
 public class ProcedurePurpleBushPlantDestroyedByPlayer extends ElementsBasicRPGmod.ModElement {
-
 	public ProcedurePurpleBushPlantDestroyedByPlayer(ElementsBasicRPGmod instance) {
 		super(instance, 123);
 	}
@@ -24,15 +30,16 @@ public class ProcedurePurpleBushPlantDestroyedByPlayer extends ElementsBasicRPGm
 			System.err.println("Failed to load dependency world for procedure PurpleBushPlantDestroyedByPlayer!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((Math.random() < 0.1)) {
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemPurpleCotton.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
 		}
-
 	}
-
 }
