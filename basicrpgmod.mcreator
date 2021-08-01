@@ -1846,14 +1846,6 @@
       "ids": {}
     },
     {
-      "name": "FrozenVines",
-      "type": "item",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Freezer",
       "type": "block",
       "sortid": 159,
@@ -2148,6 +2140,54 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ShockedOnPotionActiveTickju",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreezeResistance",
+      "type": "potion",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Shockedleafes",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenVines",
+      "type": "food",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShockedWoodPiece",
+      "type": "food",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -2159,6 +2199,7 @@
       "tile.myticleafes.name": "Mytic Leafes",
       "item.purplecotton.name": "Purple Cotton",
       "item.volcanicrock.name": "Volcanic Rock",
+      "tipped_arrow.effect.freezeresistance": "Arrow of Freeze Resistance",
       "item.darkshovel.name": "Dark Stone  Shovel",
       "item.darkpickaxe.name": "Dark Stone  Pickaxe",
       "item.frozenshovel.name": "Frozen Shovel",
@@ -2169,6 +2210,7 @@
       "item.frozenhoe.name": "Frozen Hoe",
       "item.myticpickaxe.name": "MyticStone Pickaxe",
       "item.darkaxe.name": "Dark Stone Axe",
+      "tile.shockedleafes.name": "ShockedLeaves",
       "item.heartshard.name": "Heart Shard",
       "tile.purplevines.name": "Purple Vines",
       "tile.purplerose.name": "Purple Rose",
@@ -2181,8 +2223,10 @@
       "tile.burnedlog.name": "Burned Log",
       "tile.goldgrass2.name": "Goldgrass2",
       "item.goldsword.name": "GoldenWood Sword",
+      "splash_potion.effect.freezeresistance": "Splash Freeze Resistance",
       "tile.frozenstonw.name": "Frozen Stone",
       "lingering_potion.effect.shocked": "Lingering Shocked",
+      "lingering_potion.effect.freezeresistance": "Lingering Freeze Resistance",
       "item.moltenhoe.name": "Molten Hoe",
       "item.windcreator.name": "Wind Creator",
       "tile.moltenrock.name": "Molten Rock",
@@ -2194,6 +2238,7 @@
       "tile.frozenvinesa.name": "Frozenvines",
       "tile.heartcrystal.name": "Heart Crystal",
       "item.darkwoodshoe.name": "Dark Wood Hoe",
+      "item.shockedwoodpiece.name": "Shocked Wood Piece",
       "item.lifecrystal2.name": "Life Crystal II",
       "item.lifecrystal.name": "Life Crystal I",
       "item.lifecrystal5.name": "Life Crystal V",
@@ -2201,7 +2246,7 @@
       "tile.freezer.name": "Freezer",
       "tile.darkleaves.name": "Dark Leaves",
       "item.moltenaxe.name": "Molten Axe",
-      "item.frozenleaf.name": "Hot Leaf",
+      "item.frozenleaf.name": "Frozen Leaf",
       "item.darkspikes.name": "Dark Spikes",
       "item.moltenshovel.name": "Molten Shovel",
       "item.darkwoodsshovel.name": "Dark Wood Shovel",
@@ -2256,6 +2301,8 @@
       "tile.sockedwood.name": "Shocked Wood",
       "tile.darkbricks.name": "Dark Bricks",
       "item.myticaxe.name": "MyticStone Axe",
+      "effect.freezeresistance": "Freeze Resistance",
+      "potion.effect.freezeresistance": "Freeze Resistance",
       "tile.darkstone.name": "Dark Stone",
       "tile.darkscaleplant.name": "Dark Scale Plant",
       "item.hallogengel.name": "Hallogen Gel",

@@ -3,16 +3,16 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "frozenvines",
+    "texture": "shockedwoodpiece",
     "customModelName": "Normal",
-    "name": "Frozen Vines",
+    "name": "Shocked Wood Piece",
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
     "nutritionalValue": 4,
     "saturation": 0.3,
-    "eatingSpeed": 32,
+    "eatingSpeed": 256,
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",

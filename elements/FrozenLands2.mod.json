@@ -55,7 +55,7 @@
     "heightVariation": 0.2,
     "spawnBiome": true,
     "biomeWeight": 10,
-    "biomeType": "ICY",
+    "biomeType": "COOL",
     "biomeCategory": "THEEND",
     "parent": {
       "value": "No parent"

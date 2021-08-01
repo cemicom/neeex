@@ -55,8 +55,8 @@
     "heightVariation": 0.2,
     "spawnBiome": true,
     "biomeWeight": 15,
-    "biomeType": "ICY",
-    "biomeCategory": "ICY",
+    "biomeType": "COOL",
+    "biomeCategory": "MESA",
     "parent": {
       "value": "No parent"
     },

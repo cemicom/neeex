@@ -7,24 +7,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
-import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.basicrpgmod.procedure.ProcedureHotLeafFoodEaten;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 @ElementsBasicRPGmod.ModElement.Tag
-public class ItemHotLeaf extends ElementsBasicRPGmod.ModElement {
-	@GameRegistry.ObjectHolder("basicrpgmod:hotleaf")
+public class ItemShockedWoodPiece extends ElementsBasicRPGmod.ModElement {
+	@GameRegistry.ObjectHolder("basicrpgmod:shockedwoodpiece")
 	public static final Item block = null;
-	public ItemHotLeaf(ElementsBasicRPGmod instance) {
-		super(instance, 130);
+	public ItemShockedWoodPiece(ElementsBasicRPGmod instance) {
+		super(instance, 189);
 	}
 
 	@Override
@@ -35,34 +32,25 @@ public class ItemHotLeaf extends ElementsBasicRPGmod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("basicrpgmod:hotleaf", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("basicrpgmod:shockedwoodpiece", "inventory"));
 	}
 	public static class ItemFoodCustom extends ItemFood {
 		public ItemFoodCustom() {
-			super(6, 6f, false);
-			setUnlocalizedName("hotleaf");
-			setRegistryName("hotleaf");
-			setAlwaysEdible();
+			super(4, 0.3f, false);
+			setUnlocalizedName("shockedwoodpiece");
+			setRegistryName("shockedwoodpiece");
 			setCreativeTab(CreativeTabs.FOOD);
 			setMaxStackSize(64);
 		}
 
 		@Override
-		public EnumAction getItemUseAction(ItemStack par1ItemStack) {
-			return EnumAction.EAT;
+		public int getMaxItemUseDuration(ItemStack stack) {
+			return 256;
 		}
 
 		@Override
-		protected void onFoodEaten(ItemStack itemStack, World world, EntityPlayer entity) {
-			super.onFoodEaten(itemStack, world, entity);
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureHotLeafFoodEaten.executeProcedure($_dependencies);
-			}
+		public EnumAction getItemUseAction(ItemStack par1ItemStack) {
+			return EnumAction.EAT;
 		}
 	}
 }

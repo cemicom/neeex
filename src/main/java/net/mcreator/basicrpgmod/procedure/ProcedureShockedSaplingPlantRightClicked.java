@@ -4,6 +4,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 
 import net.mcreator.basicrpgmod.block.BlockSockedWood;
+import net.mcreator.basicrpgmod.block.BlockShockedleafes;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 @ElementsBasicRPGmod.ModElement.Tag
@@ -37,5 +38,23 @@ public class ProcedureShockedSaplingPlantRightClicked extends ElementsBasicRPGmo
 		world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockSockedWood.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), BlockSockedWood.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) x, (int) (y + 3), (int) z), BlockSockedWood.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) x, (int) (y + 4), (int) z), BlockSockedWood.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) x, (int) (y + 5), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 1), (int) (y + 5), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 2), (int) (y + 5), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 3), (int) (y + 5), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 5), (int) (z + 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 5), (int) (z - 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x - 1), (int) (y + 5), (int) (z + 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x - 1), (int) (y + 5), (int) (z - 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x - 1), (int) (y + 5), (int) (z - 0)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 1), (int) (y + 6), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 6), (int) (z + 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 6), (int) (z - 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x - 1), (int) (y + 6), (int) (z - 0)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 1), (int) (y + 4), (int) z), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 4), (int) (z + 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x + 0), (int) (y + 4), (int) (z - 1)), BlockShockedleafes.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) (x - 1), (int) (y + 4), (int) (z - 0)), BlockShockedleafes.block.getDefaultState(), 3);
 	}
 }

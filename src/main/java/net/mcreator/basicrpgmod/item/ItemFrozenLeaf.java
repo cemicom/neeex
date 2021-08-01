@@ -42,6 +42,7 @@ public class ItemFrozenLeaf extends ElementsBasicRPGmod.ModElement {
 			super(6, 6f, false);
 			setUnlocalizedName("frozenleaf");
 			setRegistryName("frozenleaf");
+			setAlwaysEdible();
 			setCreativeTab(CreativeTabs.FOOD);
 			setMaxStackSize(64);
 		}

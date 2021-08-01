@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "frozenleafes",
     "customModelName": "Normal",
-    "name": "Hot Leaf",
+    "name": "Frozen Leaf",
     "creativeTab": {
       "value": "FOOD"
     },
@@ -14,7 +14,7 @@
     "saturation": 6.0,
     "eatingSpeed": 32,
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {
