@@ -1,0 +1,24 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:frozenstonw"
+    },
+    "1": {
+      "item": "basicrpgmod:frozenstonw"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:frozensword",
+    "count": 1
+  }
+}

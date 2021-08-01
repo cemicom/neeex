@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/shockedwoodtop",
+    "up": "basicrpgmod:blocks/shockedwoodtop",
+    "north": "basicrpgmod:blocks/shockedwoodfront",
+    "east": "basicrpgmod:blocks/shockedwoodfront",
+    "south": "basicrpgmod:blocks/shockedwoodfront",
+    "west": "basicrpgmod:blocks/shockedwoodfront",
+    "particle": "basicrpgmod:blocks/shockedwoodtop"
+  }
+}

@@ -1740,6 +1740,414 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SockedWood",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShockEssanceFoodEaten",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShockedOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shocked",
+      "type": "potion",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShockedFoodEaten",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShockEssance",
+      "type": "food",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SockedWoodBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenHearth",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WindCreator",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenVines",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Freezer",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FreezerEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenLeaf",
+      "type": "food",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenLeafFoodEaten",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenLeafes",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenLands1",
+      "type": "biome",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenLands2",
+      "type": "biome",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenLands3",
+      "type": "biome",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenBulb",
+      "type": "plant",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Frozenthingesss",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Freezerblast",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenEssance",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenHeartha",
+      "type": "plant",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShockedSapling",
+      "type": "plant",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShockedSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Frozenvinesa",
+      "type": "plant",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TornadoFlower",
+      "type": "plant",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TornadoFlowerMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenAxe",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenSword",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenShovel",
+      "type": "tool",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenHoe",
+      "type": "tool",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrozenPickaxe",
+      "type": "tool",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Froasxx",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Forpick",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Frosho",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Froho",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Froso",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1747,30 +2155,75 @@
   "language_map": {
     "en_us": {
       "item.lifecrystal6.name": "Life Crystal VI",
+      "tile.frozenheartha.name": "FrozenHearth",
       "tile.myticleafes.name": "Mytic Leafes",
       "item.purplecotton.name": "Purple Cotton",
-      "tile.hallogenicplant.name": "Hallogenic Plant",
       "item.volcanicrock.name": "Volcanic Rock",
+      "item.darkshovel.name": "Dark Stone  Shovel",
+      "item.darkpickaxe.name": "Dark Stone  Pickaxe",
+      "item.frozenshovel.name": "Frozen Shovel",
+      "item.myticsword.name": "MyticStone Sword",
+      "tile.tornadoflower.name": "TornadoFlower",
+      "item.goldshovel.name": "GoldWood Shovel",
+      "tile.bones.name": "Bones",
+      "item.frozenhoe.name": "Frozen Hoe",
+      "item.myticpickaxe.name": "MyticStone Pickaxe",
+      "item.darkaxe.name": "Dark Stone Axe",
+      "item.heartshard.name": "Heart Shard",
+      "tile.purplevines.name": "Purple Vines",
+      "tile.purplerose.name": "Purple Rose",
+      "tile.goldwoodplanks.name": "Gold Wood Planks",
+      "item.goldaxe.name": "GoldWood Axe",
+      "splash_potion.effect.shocked": "Splash Shocked",
+      "tile.mytivbrick.name": "Mytiv Brick",
+      "item.darkscales.name": "Dark Scales",
+      "item.goldpickaxe.name": "GoldWood Pickaxe",
+      "tile.burnedlog.name": "Burned Log",
+      "tile.goldgrass2.name": "Goldgrass2",
+      "item.goldsword.name": "GoldenWood Sword",
+      "tile.frozenstonw.name": "Frozen Stone",
+      "lingering_potion.effect.shocked": "Lingering Shocked",
+      "item.moltenhoe.name": "Molten Hoe",
+      "item.windcreator.name": "Wind Creator",
+      "tile.moltenrock.name": "Molten Rock",
+      "item.frozenvines.name": "Frozen Vines",
+      "item.myticshovel.name": "MyticStone Shovel",
+      "tile.darkwood.name": "Dark Wood",
+      "item.poisinousball.name": "Poisinous Ball",
+      "tile.corruptedthorns.name": "Corrupted Thorns",
+      "tile.frozenvinesa.name": "Frozenvines",
+      "tile.heartcrystal.name": "Heart Crystal",
+      "item.darkwoodshoe.name": "Dark Wood Hoe",
+      "item.lifecrystal2.name": "Life Crystal II",
+      "item.lifecrystal.name": "Life Crystal I",
+      "item.lifecrystal5.name": "Life Crystal V",
+      "item.purpleberries.name": "Purple Berries",
+      "tile.freezer.name": "Freezer",
+      "tile.darkleaves.name": "Dark Leaves",
+      "item.moltenaxe.name": "Molten Axe",
+      "item.frozenleaf.name": "Hot Leaf",
+      "item.darkspikes.name": "Dark Spikes",
+      "item.moltenshovel.name": "Molten Shovel",
+      "item.darkwoodsshovel.name": "Dark Wood Shovel",
+      "tile.darkspore.name": "Dark Spore",
+      "tile.hallogenicplant.name": "Hallogenic Plant",
+      "tile.shockedsapling.name": "ShockedSapling",
       "tile.obelisk2.name": "Obelisk",
       "tile.obnexsus.name": "Obnexsus",
       "tile.frozengrass.name": "Frozen Grass",
-      "item.darkshovel.name": "Dark Stone  Shovel",
-      "item.darkpickaxe.name": "Dark Stone  Pickaxe",
-      "item.myticsword.name": "MyticStone Sword",
-      "item.goldshovel.name": "GoldWood Shovel",
+      "item.frozenessance.name": "Frozen Essance",
       "item.crystalball.name": "Crystal Ball",
-      "tile.bones.name": "Bones",
       "tile.myticstone.name": "Mytic Stone",
       "item.obeliskpiece.name": "Obelisk Piece",
       "item.goldhoe.name": "GoldWood Hoe",
       "item.glassball.name": "Glass Ball",
       "tile.darkgrass.name": "Dark Grass",
       "tile.darksand.name": "Dark Sand",
-      "item.myticpickaxe.name": "MyticStone Pickaxe",
       "tile.obelisk1.name": "Obelisk",
-      "item.darkaxe.name": "Dark Stone Axe",
       "item.darkhoe.name": "Dark Stone  Hoe",
+      "effect.shocked": "Shocked",
       "tile.darkgas.name": "Dark Gas",
+      "tipped_arrow.effect.shocked": "Arrow of Shocked",
       "item.darkwoodsaxe.name": "Dark Wood Axe",
       "item.moltensword.name": "Molten Sword",
       "tile.minivolcan.name": "Mini Volcan",
@@ -1778,60 +2231,39 @@
       "tile.purpleberriesbush.name": "Purple Berries Bush",
       "tile.ash.name": "Ash",
       "tile.corupptedgrass.name": "Coruppted Grass",
-      "item.heartshard.name": "Heart Shard",
       "item.corupttedgrapes.name": "Coruptted Grapes",
-      "tile.purplevines.name": "Purple Vines",
-      "tile.purplerose.name": "Purple Rose",
-      "tile.goldwoodplanks.name": "Gold Wood Planks",
-      "item.goldaxe.name": "GoldWood Axe",
-      "item.darkscales.name": "Dark Scales",
-      "tile.mytivbrick.name": "Mytiv Brick",
-      "item.goldpickaxe.name": "GoldWood Pickaxe",
+      "potion.effect.shocked": "Shocked",
+      "item.frozenhearth.name": "Frozen Hearth",
       "item.myticapple.name": "Mytic Apple",
-      "tile.burnedlog.name": "Burned Log",
-      "tile.goldgrass2.name": "Goldgrass2",
+      "tile.frozenleafes.name": "Frozen Leaves",
+      "item.frozenaxe.name": "Frozen Axe",
       "item.lifecrystal3.name": "Life Crystal III",
       "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
-      "item.goldsword.name": "GoldenWood Sword",
       "item.darkwoodssword.name": "Dark Wood Sword",
       "tile.goldwood.name": "Gold Wood",
       "tile.watcherseye.name": "Watchers EYE",
       "tile.myticsand.name": "Mytic Sand",
       "tile.myticgrass.name": "Mytic Grass",
-      "tile.purplebush.name": "Purple Bush",
       "item.hotleaf.name": "Hot Leaf",
-      "tile.frozenstonw.name": "Frozen Stone",
+      "tile.purplebush.name": "Purple Bush",
       "item.burnedflesh.name": "Burned Flesh",
       "item.corputtedapple.name": "Corputted Apple",
       "item.purpleshell.name": "Purple Shell",
-      "item.moltenhoe.name": "Molten Hoe",
+      "tile.frozenbulb.name": "Frozen Bulb",
       "item.darksword.name": "Dark Stone Sword",
-      "tile.moltenrock.name": "Molten Rock",
-      "item.myticshovel.name": "MyticStone Shovel",
       "item.lifecrystal4.name": "Life Crystal IV",
       "tile.goldgrass.name": "Goldgrass",
+      "tile.sockedwood.name": "Shocked Wood",
       "tile.darkbricks.name": "Dark Bricks",
       "item.myticaxe.name": "MyticStone Axe",
-      "tile.darkwood.name": "Dark Wood",
-      "item.poisinousball.name": "Poisinous Ball",
-      "tile.corruptedthorns.name": "Corrupted Thorns",
-      "tile.heartcrystal.name": "Heart Crystal",
-      "item.darkwoodshoe.name": "Dark Wood Hoe",
       "tile.darkstone.name": "Dark Stone",
-      "item.lifecrystal2.name": "Life Crystal II",
       "tile.darkscaleplant.name": "Dark Scale Plant",
-      "item.lifecrystal.name": "Life Crystal I",
       "item.hallogengel.name": "Hallogen Gel",
-      "item.lifecrystal5.name": "Life Crystal V",
+      "item.frozenpickaxe.name": "Frozen Pickaxe",
       "tile.corupptedbush.name": "Corupptedbush",
-      "item.purpleberries.name": "Purple Berries",
+      "item.shockessance.name": "Shock Essance",
       "tile.darkplank.name": "Dark Plank",
-      "tile.darkleaves.name": "Dark Leaves",
-      "item.moltenaxe.name": "Molten Axe",
-      "item.darkspikes.name": "Dark Spikes",
-      "item.moltenshovel.name": "Molten Shovel",
-      "item.darkwoodsshovel.name": "Dark Wood Shovel",
-      "tile.darkspore.name": "Dark Spore",
+      "item.frozensword.name": "Frozen Sword",
       "item.mytichoe.name": "MyticStone Hoe",
       "tile.hotrose.name": "Hot Rose"
     }
