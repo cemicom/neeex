@@ -6,6 +6,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.basicrpgmod.potion.PotionShocked;
+import net.mcreator.basicrpgmod.potion.PotionFreezeResistance;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 import java.util.Collection;
@@ -58,6 +59,8 @@ public class ProcedureShockedOnPotionActiveTickju extends ElementsBasicRPGmod.Mo
 		}.check())))) {
 			if (entity instanceof EntityLivingBase)
 				((EntityLivingBase) entity).clearActivePotions();
+			if (entity instanceof EntityLivingBase)
+				((EntityLivingBase) entity).addPotionEffect(new PotionEffect(PotionFreezeResistance.potion, (int) 120, (int) 1, (false), (false)));
 		}
 	}
 }
