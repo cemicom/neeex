@@ -3,24 +3,21 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dark_sword",
+    "texture": "mushroomite_shovel",
     "customModelName": "Normal",
-    "name": "Dark Stone Sword",
+    "name": "Mushroomite Shovel",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Spade",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 21,
-    "damageVsEntity": 5.3,
+    "enchantability": 14,
+    "damageVsEntity": 2.0,
     "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "onEntityHitWith": {
-      "name": "DarkSwordMobIsHitWithTool"
-    }
+    "repairItems": []
   }
 }

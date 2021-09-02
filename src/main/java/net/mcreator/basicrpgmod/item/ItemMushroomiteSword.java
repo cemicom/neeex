@@ -19,7 +19,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.basicrpgmod.procedure.ProcedureDarkSwordMobIsHitWithTool;
+import net.mcreator.basicrpgmod.procedure.ProcedureMushroomiteSwordMobIsHitWithTool;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 import java.util.Set;
@@ -28,16 +28,16 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsBasicRPGmod.ModElement.Tag
-public class ItemDarkSword extends ElementsBasicRPGmod.ModElement {
-	@GameRegistry.ObjectHolder("basicrpgmod:darksword")
+public class ItemMushroomiteSword extends ElementsBasicRPGmod.ModElement {
+	@GameRegistry.ObjectHolder("basicrpgmod:mushroomitesword")
 	public static final Item block = null;
-	public ItemDarkSword(ElementsBasicRPGmod instance) {
-		super(instance, 44);
+	public ItemMushroomiteSword(ElementsBasicRPGmod instance) {
+		super(instance, 207);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKSWORD", 1, 150, 4f, 1.3f, 21)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("MUSHROOMITESWORD", 1, 150, 4f, 1.3f, 14)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -65,17 +65,20 @@ public class ItemDarkSword extends ElementsBasicRPGmod.ModElement {
 				World world = entity.world;
 				{
 					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-					$_dependencies.put("entity", entity);
-					ProcedureDarkSwordMobIsHitWithTool.executeProcedure($_dependencies);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureMushroomiteSwordMobIsHitWithTool.executeProcedure($_dependencies);
 				}
 				return true;
 			}
-		}.setUnlocalizedName("darksword").setRegistryName("darksword").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("mushroomitesword").setRegistryName("mushroomitesword").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("basicrpgmod:darksword", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("basicrpgmod:mushroomitesword", "inventory"));
 	}
 }

@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dark_sword",
+    "texture": "mushroomite_sword",
     "customModelName": "Normal",
-    "name": "Dark Stone Sword",
+    "name": "Mushroomite Sword",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -13,14 +13,14 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 21,
+    "enchantability": 14,
     "damageVsEntity": 5.3,
     "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "onEntityHitWith": {
-      "name": "DarkSwordMobIsHitWithTool"
+      "name": "MushroomiteSwordMobIsHitWithTool"
     }
   }
 }

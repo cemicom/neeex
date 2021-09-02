@@ -18,6 +18,9 @@
     "usageCount": 190,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "FrozenSwordMobIsHitWithTool"
+    }
   }
 }
