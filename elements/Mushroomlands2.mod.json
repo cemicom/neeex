@@ -2,48 +2,48 @@
   "_fv": 6,
   "_type": "biome",
   "definition": {
-    "name": "Volcanic",
+    "name": "Mushroom Lands",
     "groundBlock": {
-      "value": "CUSTOM:Ash"
+      "value": "Blocks.MYCELIUM"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:MoltenRock"
+      "value": "CUSTOM:MushroomiteStone"
     },
-    "generateLakes": false,
-    "treeType": 1,
+    "generateLakes": true,
+    "treeType": 0,
     "vanillaTreeType": "Default",
-    "minHeight": 3,
+    "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeStem": {
-      "value": "CUSTOM:BurnedLog"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "customColors": true,
     "airColor": {
-      "value": -13627376,
+      "value": -10092442,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -14745600,
+      "value": -10092442,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13487566,
+      "value": -13434829,
       "falpha": 0.0
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 0,
     "grassPerChunk": 0,
     "flowersPerChunk": 0,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
+    "mushroomsPerChunk": 4,
+    "bigMushroomsChunk": 3,
     "sandPathcesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
@@ -55,16 +55,13 @@
     "heightVariation": 0.2,
     "spawnBiome": true,
     "biomeWeight": 10,
-    "biomeType": "DESERT",
-    "biomeCategory": "MESA",
+    "biomeType": "WARM",
+    "biomeCategory": "DESERT",
     "parent": {
       "value": "No parent"
     },
     "biomeDictionaryTypes": [
-      "HOT",
-      "SAVANNA",
-      "SANDY",
-      "DEAD"
+      "MUSHROOM"
     ],
     "spawnList": []
   }
