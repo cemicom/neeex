@@ -31,7 +31,7 @@ public class ProcedureMyticSwordMobIsHitWithTool extends ElementsBasicRPGmod.Mod
 				|| (((entity instanceof EntitySkeletonHorse) || (entity instanceof EntityPigZombie))
 						|| ((entity instanceof EntityHusk) || (entity instanceof EntitySkeleton))))
 				|| (entity instanceof EntityArrow))) {
-			entity.attackEntityFrom(DamageSource.OUT_OF_WORLD, (float) 3);
+			entity.attackEntityFrom(DamageSource.OUT_OF_WORLD, (float) 1.5);
 		}
 	}
 }

@@ -20,6 +20,6 @@ public class ProcedureFrozenSwordMobIsHitWithTool extends ElementsBasicRPGmod.Mo
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(PotionShocked.potion, (int) 45, (int) 0, (false), (false)));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(PotionShocked.potion, (int) 30, (int) 0, (false), (false)));
 	}
 }
