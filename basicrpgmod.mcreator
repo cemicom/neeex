@@ -2188,6 +2188,402 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MushroomiteStone",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomLands",
+      "type": "biome",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mushroomlands2",
+      "type": "biome",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigRedMushroomFoodEaten",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigRedMushroom",
+      "type": "food",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedMushroom",
+      "type": "plant",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigBlueMushroom",
+      "type": "food",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueMushroom",
+      "type": "plant",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowMushroom",
+      "type": "plant",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowBigMushroom",
+      "type": "food",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowBigMushroomFoodEaten",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowBigMushroomMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenMushroom",
+      "type": "plant",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenBigMushroom",
+      "type": "food",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenBigMushroomFoodEaten",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleMushroom",
+      "type": "plant",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleGelUpdateTick",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleGel",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSporeMobplayerCollidesWithPlantMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomitePickaxe",
+      "type": "tool",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteAxe",
+      "type": "tool",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteSword",
+      "type": "tool",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteShovel",
+      "type": "tool",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteHoe",
+      "type": "tool",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoltenSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MyticSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomiteSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2206,21 +2602,25 @@
       "item.myticsword.name": "MyticStone Sword",
       "tile.tornadoflower.name": "TornadoFlower",
       "item.goldshovel.name": "GoldWood Shovel",
+      "item.mushroomiteshovel.name": "Mushroomite Shovel",
+      "tile.purplegel.name": "Purple Gel",
       "tile.bones.name": "Bones",
       "item.frozenhoe.name": "Frozen Hoe",
       "item.myticpickaxe.name": "MyticStone Pickaxe",
       "item.darkaxe.name": "Dark Stone Axe",
       "tile.shockedleafes.name": "ShockedLeaves",
-      "item.heartshard.name": "Heart Shard",
       "tile.purplevines.name": "Purple Vines",
+      "item.heartshard.name": "Heart Shard",
       "tile.purplerose.name": "Purple Rose",
-      "tile.goldwoodplanks.name": "Gold Wood Planks",
+      "tile.greenmushroom.name": "Green Mushroom",
       "item.goldaxe.name": "GoldWood Axe",
+      "tile.goldwoodplanks.name": "Gold Wood Planks",
       "splash_potion.effect.shocked": "Splash Shocked",
-      "tile.mytivbrick.name": "Mytiv Brick",
       "item.darkscales.name": "Dark Scales",
+      "tile.mytivbrick.name": "Mytiv Brick",
       "item.goldpickaxe.name": "GoldWood Pickaxe",
       "tile.burnedlog.name": "Burned Log",
+      "tile.purplemushroom.name": "Purple Mushroom",
       "tile.goldgrass2.name": "Goldgrass2",
       "item.goldsword.name": "GoldenWood Sword",
       "splash_potion.effect.freezeresistance": "Splash Freeze Resistance",
@@ -2234,6 +2634,7 @@
       "item.myticshovel.name": "MyticStone Shovel",
       "tile.darkwood.name": "Dark Wood",
       "item.poisinousball.name": "Poisinous Ball",
+      "item.mushroomitepickaxe.name": "Mushroomite Pickaxe",
       "tile.corruptedthorns.name": "Corrupted Thorns",
       "tile.frozenvinesa.name": "Frozenvines",
       "tile.heartcrystal.name": "Heart Crystal",
@@ -2251,18 +2652,22 @@
       "item.moltenshovel.name": "Molten Shovel",
       "item.darkwoodsshovel.name": "Dark Wood Shovel",
       "tile.darkspore.name": "Dark Spore",
+      "item.yellowbigmushroom.name": "Big Yellow Mushroom",
+      "item.mushroomitehoe.name": "Mushroomite Hoe",
       "tile.hallogenicplant.name": "Hallogenic Plant",
       "tile.shockedsapling.name": "ShockedSapling",
       "tile.obelisk2.name": "Obelisk",
       "tile.obnexsus.name": "Obnexsus",
       "tile.frozengrass.name": "Frozen Grass",
       "item.frozenessance.name": "Frozen Essance",
+      "tile.yellowmushroom.name": "Yellow Mushroom",
       "item.crystalball.name": "Crystal Ball",
       "tile.myticstone.name": "Mytic Stone",
       "item.obeliskpiece.name": "Obelisk Piece",
       "item.goldhoe.name": "GoldWood Hoe",
       "item.glassball.name": "Glass Ball",
       "tile.darkgrass.name": "Dark Grass",
+      "tile.bluemushroom.name": "Blue Mushroom",
       "tile.darksand.name": "Dark Sand",
       "tile.obelisk1.name": "Obelisk",
       "item.darkhoe.name": "Dark Stone  Hoe",
@@ -2278,16 +2683,20 @@
       "tile.corupptedgrass.name": "Coruppted Grass",
       "item.corupttedgrapes.name": "Coruptted Grapes",
       "potion.effect.shocked": "Shocked",
+      "tile.redmushroom.name": "Red Mushroom",
+      "item.greenbigmushroom.name": "Big Green Mushroom",
       "item.frozenhearth.name": "Frozen Hearth",
       "item.myticapple.name": "Mytic Apple",
       "tile.frozenleafes.name": "Frozen Leaves",
       "item.frozenaxe.name": "Frozen Axe",
       "item.lifecrystal3.name": "Life Crystal III",
       "item.darkwoodspickaxe.name": "Dark Wood Pickaxe",
+      "item.mushroomiteaxe.name": "Mushroomite Axe",
       "item.darkwoodssword.name": "Dark Wood Sword",
       "tile.goldwood.name": "Gold Wood",
       "tile.watcherseye.name": "Watchers EYE",
       "tile.myticsand.name": "Mytic Sand",
+      "item.bigredmushroom.name": "Big Red Mushroom",
       "tile.myticgrass.name": "Mytic Grass",
       "item.hotleaf.name": "Hot Leaf",
       "tile.purplebush.name": "Purple Bush",
@@ -2296,6 +2705,7 @@
       "item.purpleshell.name": "Purple Shell",
       "tile.frozenbulb.name": "Frozen Bulb",
       "item.darksword.name": "Dark Stone Sword",
+      "item.bigbluemushroom.name": "Big Blue Mushroom",
       "item.lifecrystal4.name": "Life Crystal IV",
       "tile.goldgrass.name": "Goldgrass",
       "tile.sockedwood.name": "Shocked Wood",
@@ -2308,8 +2718,10 @@
       "item.hallogengel.name": "Hallogen Gel",
       "item.frozenpickaxe.name": "Frozen Pickaxe",
       "tile.corupptedbush.name": "Corupptedbush",
+      "item.mushroomitesword.name": "Mushroomite Sword",
       "item.shockessance.name": "Shock Essance",
       "tile.darkplank.name": "Dark Plank",
+      "tile.mushroomitestone.name": "Mushroomite Stone",
       "item.frozensword.name": "Frozen Sword",
       "item.mytichoe.name": "MyticStone Hoe",
       "tile.hotrose.name": "Hot Rose"

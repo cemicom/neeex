@@ -1,0 +1,24 @@
+{
+  "group": "basicrpgmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "basicrpgmod:mushroomitestone"
+    },
+    "1": {
+      "item": "basicrpgmod:mushroomitestone"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "basicrpgmod:mushroomitesword",
+    "count": 1
+  }
+}

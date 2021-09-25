@@ -8,15 +8,18 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.basicrpgmod.procedure.ProcedureDarkSwordMobIsHitWithTool;
 import net.mcreator.basicrpgmod.ElementsBasicRPGmod;
 
 import java.util.Set;
@@ -51,6 +54,21 @@ public class ItemDarkSword extends ElementsBasicRPGmod.ModElement {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("sword", 1);
 				return ret.keySet();
+			}
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, EntityLivingBase entity, EntityLivingBase entity2) {
+				super.hitEntity(itemstack, entity, entity2);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				World world = entity.world;
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					ProcedureDarkSwordMobIsHitWithTool.executeProcedure($_dependencies);
+				}
+				return true;
 			}
 		}.setUnlocalizedName("darksword").setRegistryName("darksword").setCreativeTab(CreativeTabs.COMBAT));
 	}

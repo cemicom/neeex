@@ -18,6 +18,9 @@
     "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "MyticSwordMobIsHitWithTool"
+    }
   }
 }

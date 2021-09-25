@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "basicrpgmod:blocks/greenmushroom",
+    "particle": "basicrpgmod:blocks/greenmushroom"
+  }
+}

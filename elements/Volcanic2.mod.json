@@ -56,7 +56,7 @@
     "spawnBiome": true,
     "biomeWeight": 10,
     "biomeType": "DESERT",
-    "biomeCategory": "SWAMP",
+    "biomeCategory": "MESA",
     "parent": {
       "value": "No parent"
     },
