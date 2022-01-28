@@ -2584,6 +2584,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "BloodyDeath",
+      "type": "biome",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
