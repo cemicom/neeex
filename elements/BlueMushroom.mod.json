@@ -1,10 +1,8 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "plant",
   "definition": {
-    "renderType": 12,
     "texture": "bluemushroom",
-    "customModelName": "Cross model",
     "plantType": "normal",
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
@@ -19,21 +17,22 @@
     "soundOnStep": {
       "value": "PLANT"
     },
+    "enableCustomDrop": false,
     "customDrop": {
       "value": "CUSTOM:BigBlueMushroom"
     },
     "dropAmount": 1,
     "isReplaceable": false,
+    "isFlammable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
     "frequencyOnChunks": 4,
     "spawnWorldTypes": [
       "Surface"
     ],
+    "restricPerBiome": false,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MushroomLands"

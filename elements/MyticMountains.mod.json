@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "biome",
   "definition": {
     "name": "Mytic Mountains",
@@ -54,16 +54,15 @@
     "baseHeight": 0.0,
     "heightVariation": 2.0,
     "spawnBiome": true,
+    "spawnVillagesInBiome": false,
+    "spawnStrongholdsInBiome": false,
     "biomeWeight": 10,
     "biomeType": "COOL",
-    "biomeCategory": "EXTREME_HILLS",
-    "parent": {
-      "value": "CUSTOM:MyticForest"
-    },
     "biomeDictionaryTypes": [
       "MOUNTAIN",
       "HILLS"
     ],
+    "entityListSpawnType": 0,
     "spawnList": []
   }
 }

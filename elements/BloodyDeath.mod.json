@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "biome",
   "definition": {
     "name": "Dark Lands",
@@ -54,18 +54,17 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": true,
+    "spawnVillagesInBiome": false,
+    "spawnStrongholdsInBiome": false,
     "biomeWeight": 10,
     "biomeType": "WARM",
-    "biomeCategory": "PLAINS",
-    "parent": {
-      "value": "CUSTOM:DarkLands"
-    },
     "biomeDictionaryTypes": [
       "FOREST",
       "PLAINS",
       "CONIFEROUS",
       "JUNGLE"
     ],
+    "entityListSpawnType": 0,
     "spawnList": []
   }
 }

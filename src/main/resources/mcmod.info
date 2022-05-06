@@ -10,11 +10,11 @@
     "url": "https://mcreator.net",
     "updateUrl": "",
     "authorList": [
-      "hp, MCreator"
+      "hp, MCreator",
+      "MCreator"
     ],
     "dependencies": [],
     "dependants": [],
-    "requiredMods": [],
-    "useDependencyInformation": "true"
+    "requiredMods": []
   }
 ]

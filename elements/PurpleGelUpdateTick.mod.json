@@ -1,7 +1,7 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"block_add\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.AIR</field></block></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></next></block></xml>"
+    "procedurexml": "\u003cxml xmlns\u003d\"https://developers.google.com/blockly/xml\"\u003e\u003cblock type\u003d\"event_trigger\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cfield name\u003d\"trigger\"\u003eNo additional trigger\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"block_add\"\u003e\u003cvalue name\u003d\"block\"\u003e\u003cblock type\u003d\"mcitem_allblocks\"\u003e\u003cfield name\u003d\"value\"\u003eBlocks.AIR\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"x\"\u003e\u003cblock type\u003d\"coord_x\"/\u003e\u003c/value\u003e\u003cvalue name\u003d\"y\"\u003e\u003cblock type\u003d\"coord_y\"/\u003e\u003c/value\u003e\u003cvalue name\u003d\"z\"\u003e\u003cblock type\u003d\"coord_z\"/\u003e\u003c/value\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e"
   }
 }

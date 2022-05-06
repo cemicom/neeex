@@ -1,11 +1,6 @@
 package net.mcreator.basicrpgmod;
 
-import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-
-public class ServerProxyBasicRPGmod implements IProxyBasicRPGmod {
+public class ServerProxybasicrpgmod implements IProxybasicrpgmod {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 	}

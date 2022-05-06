@@ -1,7 +1,7 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"entity_add_potion_advanced\"><field name=\"potion\">POISON</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">60</field></block></value><value name=\"ambient\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><value name=\"particles\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></xml>"
+    "procedurexml": "\u003cxml xmlns\u003d\"https://developers.google.com/blockly/xml\"\u003e\u003cblock type\u003d\"event_trigger\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cfield name\u003d\"trigger\"\u003eNo additional trigger\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"entity_add_potion_advanced\"\u003e\u003cfield name\u003d\"potion\"\u003ePOISON\u003c/field\u003e\u003cvalue name\u003d\"level\"\u003e\u003cblock type\u003d\"math_number\"\u003e\u003cfield name\u003d\"NUM\"\u003e1\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"duration\"\u003e\u003cblock type\u003d\"math_number\"\u003e\u003cfield name\u003d\"NUM\"\u003e60\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"ambient\"\u003e\u003cblock type\u003d\"logic_boolean\"\u003e\u003cfield name\u003d\"BOOL\"\u003eFALSE\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"particles\"\u003e\u003cblock type\u003d\"logic_boolean\"\u003e\u003cfield name\u003d\"BOOL\"\u003eFALSE\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e"
   }
 }

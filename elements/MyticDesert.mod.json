@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "biome",
   "definition": {
     "name": "Mytic Desert",
@@ -54,15 +54,14 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": true,
+    "spawnVillagesInBiome": false,
+    "spawnStrongholdsInBiome": false,
     "biomeWeight": 1,
     "biomeType": "DESERT",
-    "biomeCategory": "DESERT",
-    "parent": {
-      "value": "CUSTOM:MyticForest"
-    },
     "biomeDictionaryTypes": [
       "HOT"
     ],
+    "entityListSpawnType": 0,
     "spawnList": []
   }
 }

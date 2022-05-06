@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -16,6 +16,8 @@
     "damageCount": 0,
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
+    "canBeDroppedAsGrassSeed": false,
+    "droppedAsGrassSeedProbability": 0,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],

@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "biome",
   "definition": {
     "name": "Frozen Lands1",
@@ -54,17 +54,16 @@
     "baseHeight": 0.1,
     "heightVariation": 2.0,
     "spawnBiome": true,
+    "spawnVillagesInBiome": false,
+    "spawnStrongholdsInBiome": false,
     "biomeWeight": 10,
     "biomeType": "ICY",
-    "biomeCategory": "EXTREME_HILLS",
-    "parent": {
-      "value": "No parent"
-    },
     "biomeDictionaryTypes": [
       "COLD",
       "DRY",
       "WATER"
     ],
+    "entityListSpawnType": 0,
     "spawnList": []
   }
 }

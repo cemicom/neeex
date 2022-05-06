@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "block",
   "definition": {
     "texture": "goldwoodplank",
@@ -30,6 +30,7 @@
     },
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
+    "hasCustomDrop": false,
     "customDrop": {
       "value": ""
     },
@@ -43,17 +44,12 @@
       "value": "WOOD"
     },
     "tickRate": 10,
-    "tickRandomly": false,
     "isReplaceable": false,
+    "isFlammable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
-    "isLadder": false,
-    "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "WOOD"
@@ -70,14 +66,13 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [],
+    "restricPerBiome": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "frequencyPerChunks": 10,

@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 4,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -12,13 +12,11 @@
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 5.3,
     "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
     "onEntityHitWith": {
       "name": "MyticSwordMobIsHitWithTool"
     }
