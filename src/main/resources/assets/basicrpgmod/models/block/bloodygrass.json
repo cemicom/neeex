@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basicrpgmod:blocks/darkgrassbottom",
+    "up": "basicrpgmod:blocks/blooda",
+    "north": "basicrpgmod:blocks/blood2",
+    "east": "basicrpgmod:blocks/blood2",
+    "south": "basicrpgmod:blocks/blood2",
+    "west": "basicrpgmod:blocks/blood2",
+    "particle": "basicrpgmod:blocks/darkgrassbottom"
+  }
+}

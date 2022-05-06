@@ -1,0 +1,21 @@
+{
+  "_fv": 4,
+  "_type": "food",
+  "definition": {
+    "texture": "bloodyapple",
+    "name": "Bloody Apple",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "BloodyAppleFoodEaten"
+    }
+  }
+}
